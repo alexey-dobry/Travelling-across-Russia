@@ -1,0 +1,16 @@
+.lead {
+  
+  color: #FFFFFF
+}
+
+@media screen and (min-width: 1280px) {
+  .lead {
+    padding: 0 calc((100vw - 984px)/2) 19px calc((100vw - 984px)/2);
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .lead {
+    padding: 0 calc((100vw - 928px)/2) 19px calc((100vw - 928px)/2);
+  }
+}

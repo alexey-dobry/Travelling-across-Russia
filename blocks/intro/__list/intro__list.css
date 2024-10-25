@@ -1,0 +1,10 @@
+.intro__list {
+  list-style: none;
+  line-height: 18px;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.list_bald-text {
+  font-weight: 700;
+}

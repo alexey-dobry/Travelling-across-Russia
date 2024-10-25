@@ -1,0 +1,16 @@
+.intro {
+  width: 690px;
+  color: #FFFFFF
+}
+
+@media screen and (min-width: 1280px) {
+  .intro {
+    padding: 19px calc((100vw - 984px) - ((100vw - 984px)/2)) 92px calc((100vw - 984px)/2);
+  }
+}
+
+@media  screen and (min-width: 1024px) and (max-width: 1279px) {
+  .intro {
+    padding: 19px calc((100vw - 928px) - ((100vw - 928px)/2)) 92px calc((100vw - 928px)/2);
+  }
+}
